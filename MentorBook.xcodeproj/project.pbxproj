@@ -15,6 +15,11 @@
 		5DBB6DBC250CB4FC0081013F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6DBA250CB4FC0081013F /* LaunchScreen.storyboard */; };
 		5DBB6DC7250CB4FC0081013F /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB6DC6250CB4FC0081013F /* MentorBookTests.swift */; };
 		5DBB6DD2250CB4FC0081013F /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB6DD1250CB4FC0081013F /* MentorBookUITests.swift */; };
+		5DBB6DE0250CB5240081013F /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6DDF250CB5240081013F /* haikei.jpg */; };
+		5DBB6DE2250CB8D20081013F /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB6DE1250CB8D20081013F /* Mentor.swift */; };
+		5DBB6DE7250CBE310081013F /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6DE4250CBE310081013F /* ryo.jpg */; };
+		5DBB6DE8250CBE310081013F /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6DE5250CBE310081013F /* nagata.jpg */; };
+		5DBB6DE9250CBE310081013F /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB6DE6250CBE310081013F /* taithi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5DBB6DCD250CB4FC0081013F /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBB6DD1250CB4FC0081013F /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		5DBB6DD3250CB4FC0081013F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBB6DDF250CB5240081013F /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
+		5DBB6DE1250CB8D20081013F /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		5DBB6DE4250CBE310081013F /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		5DBB6DE5250CBE310081013F /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		5DBB6DE6250CBE310081013F /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,8 @@
 		5DBB6DAE250CB4F30081013F /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				5DBB6DE3250CBE310081013F /* images */,
+				5DBB6DDF250CB5240081013F /* haikei.jpg */,
 				5DBB6DAF250CB4F30081013F /* AppDelegate.swift */,
 				5DBB6DB1250CB4F30081013F /* SceneDelegate.swift */,
 				5DBB6DB3250CB4F30081013F /* ViewController.swift */,
@@ -106,6 +118,7 @@
 				5DBB6DB8250CB4FC0081013F /* Assets.xcassets */,
 				5DBB6DBA250CB4FC0081013F /* LaunchScreen.storyboard */,
 				5DBB6DBD250CB4FC0081013F /* Info.plist */,
+				5DBB6DE1250CB8D20081013F /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +139,16 @@
 				5DBB6DD3250CB4FC0081013F /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		5DBB6DE3250CBE310081013F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB6DE4250CBE310081013F /* ryo.jpg */,
+				5DBB6DE5250CBE310081013F /* nagata.jpg */,
+				5DBB6DE6250CBE310081013F /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBB6DE0250CB5240081013F /* haikei.jpg in Resources */,
+				5DBB6DE8250CBE310081013F /* nagata.jpg in Resources */,
 				5DBB6DBC250CB4FC0081013F /* LaunchScreen.storyboard in Resources */,
+				5DBB6DE7250CBE310081013F /* ryo.jpg in Resources */,
 				5DBB6DB9250CB4FC0081013F /* Assets.xcassets in Resources */,
 				5DBB6DB7250CB4F30081013F /* Main.storyboard in Resources */,
+				5DBB6DE9250CBE310081013F /* taithi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBB6DE2250CB8D20081013F /* Mentor.swift in Sources */,
 				5DBB6DB4250CB4F30081013F /* ViewController.swift in Sources */,
 				5DBB6DB0250CB4F30081013F /* AppDelegate.swift in Sources */,
 				5DBB6DB2250CB4F30081013F /* SceneDelegate.swift in Sources */,
